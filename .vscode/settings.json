@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "java_console/json-20220924.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
