@@ -1,4 +1,4 @@
-package les2;
+package les2.java_console;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
