@@ -6,14 +6,15 @@ public class GrandParents {
     private int age;
     private String status;
 
-    public String Mother(){
+    public String Mother() {
         firstName = "Таисия";
         secondName = "Боркова";
         age = 45;
         status = "Мать";
         return String.format("Статус:%s, Имя: %s %s, возраст: %d.", status, firstName, secondName, age);
     }
-    public String Father(){
+
+    public String Father() {
         firstName = "Андрей";
         secondName = "Мартынов";
         age = 40;

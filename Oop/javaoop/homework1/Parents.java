@@ -1,12 +1,12 @@
 package javaoop.homework1;
 
-public class Parents extends GrandParents{
+public class Parents extends GrandParents {
     private String firstName;
     private String secondName;
     private int age;
     private String status;
 
-    public String tutorMath(){
+    public String tutorMath() {
         firstName = "Мария";
         secondName = "Сызова";
         age = 30;
@@ -14,7 +14,7 @@ public class Parents extends GrandParents{
         return String.format("Статус:%s, Имя: %s %s, возраст: %d.", status, firstName, secondName, age);
     }
 
-    public String tutorEng(){
+    public String tutorEng() {
         firstName = "Павел";
         secondName = "Токарь";
         age = 37;
