@@ -1,9 +1,8 @@
+package java3_Exception;
+
 import java.text.CharacterIterator;
 import java.text.StringCharacterIterator;
 import java.util.Scanner;
-
-import java3_Exception.WrongLoginException;
-import java3_Exception.WrongPasswordException;
 
 public class Main {
 
@@ -78,16 +77,3 @@ public class Main {
 
     }
 }
-
-/*
- * for(int i = 65; i <= 122; i++)
- * {
- * System.out.println(" The ASCII value of " + (char)i + "  =  " + i);
- * }
- * char a = 'a';
- * System.out.println('a' > 'b' | '_' == 'b' | '0' > 'b');
- */
-// ограничить с 0 по 9 - 48-57
-// ограничить с A по Z - 65-90
-// ограничить с a по z - 97 -122
-// "или равно _" - 95
